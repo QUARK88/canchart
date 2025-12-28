@@ -43,7 +43,7 @@
     text-decoration: none;
     user-select: none;
     color: #000000;
-    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+    text-shadow: -.5px -.5px 0 #fff, .5px -.5px 0 #fff, -.5px .5px 0 #fff, .5px .5px 0 #fff,-1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
     /*outline-offset: -1px;
     outline: solid 1px #0f0 !important;
     /*For wireframe kiddies*/
@@ -62,7 +62,7 @@ body {
 
 body::after {
     content: "";
-    /*background-image: var(--chart);*/
+    background-image: var(--chart);
     position: absolute;
     top: 0;
     right: 0;
@@ -319,8 +319,8 @@ body::after {
 }
 
 .node__shape--current {
-    border: solid 8px var(--fg);
-    border-radius: 8px;
+    border: solid 6px var(--fg);
+    border-radius: 12px;
 }
 
 .node__shape--liberal {

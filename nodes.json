@@ -58,6 +58,26 @@
         700,
         []
     ],
+    "Canadian Alliance": [
+        "nfr",
+        "https://thecanadianencyclopedia.ca/en/article/canadian-alliance",
+        1675,
+        3525,
+        [
+            [
+                "Christian Right",
+                ""
+            ],
+            [
+                "Reform Party",
+                ""
+            ],
+            [
+                "Western Canadian Regionalism",
+                ""
+            ]
+        ]
+    ],
     "Canadian Reform Movement": [
         "af",
         "https://thecanadianencyclopedia.ca/en/article/reform-movement-in-upper-canada",
@@ -109,6 +129,13 @@
             ]
         ]
     ],
+    "Christian Right": [
+        "ai",
+        "https://en.wikipedia.org/wiki/Christian_right#Canada",
+        1575,
+        3425,
+        []
+    ],
     "Clear Grits": [
         "af",
         "https://thecanadianencyclopedia.ca/en/article/clear-grits",
@@ -118,6 +145,50 @@
             [
                 "Canadian Reform Movement",
                 "Western Radicals"
+            ]
+        ]
+    ],
+    "Communist Party": [
+        "nc",
+        "https://thecanadianencyclopedia.ca/en/article/communist-party-of-canada",
+        275,
+        2450,
+        [
+            [
+                "Socialist Party",
+                "Revolutionaries"
+            ]
+        ]
+    ],
+    "Conservative Party (Contemporary era)": [
+        "ncn",
+        "https://thecanadianencyclopedia.ca/en/article/pierre-poilievre",
+        1625,
+        3625,
+        [
+            [
+                "Conservative Party (Harper era)",
+                ""
+            ]
+        ]
+    ],
+    "Conservative Party (Harper era)": [
+        "nfn",
+        "https://thecanadianencyclopedia.ca/en/article/stephen-joseph-harper",
+        1925,
+        3525,
+        [
+            [
+                "Canadian Alliance",
+                ""
+            ],
+            [
+                "Progressive Conservative Party (Rump era)",
+                ""
+            ],
+            [
+                "Western Canadian Regionalism",
+                ""
             ]
         ]
     ],
@@ -160,6 +231,26 @@
         1475,
         []
     ],
+    "Co-operative Commonwealth Federation": [
+        "nfw",
+        "https://thecanadianencyclopedia.ca/en/article/co-operative-commonwealth-federation",
+        675,
+        2450,
+        [
+            [
+                "Independent Labour Party",
+                ""
+            ],
+            [
+                "Social Gospel",
+                ""
+            ],
+            [
+                "United Farmers of Alberta",
+                ""
+            ]
+        ]
+    ],
     "Family Compact": [
         "af",
         "https://thecanadianencyclopedia.ca/en/article/family-compact",
@@ -179,12 +270,35 @@
         1225,
         []
     ],
+    "Immigration Restrictionism": [
+        "ni",
+        "https://thecanadianencyclopedia.ca/en/article/immigration",
+        1500,
+        3325,
+        []
+    ],
     "''Imperial Preference'' Imperialism": [
         "ai",
         "https://en.wikipedia.org/wiki/Imperial_Preference",
         1925,
         2000,
         []
+    ],
+    "Independent Labour Party": [
+        "pf",
+        "https://en.wikipedia.org/wiki/Independent_Labour_Party_(Manitoba,_1920)",
+        500,
+        2325,
+        [
+            [
+                "Socialism",
+                ""
+            ],
+            [
+                "Socialist Party",
+                "Gradualists"
+            ]
+        ]
     ],
     "Keynesianism": [
         "ni",
@@ -273,6 +387,22 @@
             ]
         ]
     ],
+    "Liberal Party (Contemporary era)": [
+        "ncl",
+        "https://thecanadianencyclopedia.ca/en/article/mark-carney",
+        1150,
+        3625,
+        [
+            [
+                "Conservative Party (Contemporary era)",
+                "Adoption of popular policies"
+            ],
+            [
+                "Liberal Party (Trudeau era)",
+                ""
+            ]
+        ]
+    ],
     "Liberal Party (King-St. Laurent era)": [
         "nfl",
         "https://thecanadianencyclopedia.ca/en/article/william-lyon-mackenzie-king",
@@ -316,6 +446,13 @@
                 ""
             ]
         ]
+    ],
+    "Libertarianism": [
+        "ni",
+        "https://thecanadianencyclopedia.ca/en/article/libertarianism-in-canada",
+        1325,
+        3375,
+        []
     ],
     "McCarthyites": [
         "af",
@@ -526,6 +663,33 @@
             ]
         ]
     ],
+    "People's Party": [
+        "ncm",
+        "https://thecanadianencyclopedia.ca/en/article/people-s-party-of-canada",
+        1425,
+        3475,
+        [
+            [
+                "Conservative Party (Contemporary era)",
+                ""
+            ],
+            [
+                "Immigration Restrictionism",
+                ""
+            ],
+            [
+                "Libertarianism",
+                ""
+            ]
+        ]
+    ],
+    "Prairie Red Tory Populists": [
+        "pf",
+        "https://en.wikipedia.org/wiki/Red_Tory",
+        1925,
+        2475,
+        []
+    ],
     "Progressive Conservative Party (Bracken-Drew era)": [
         "nfc",
         "https://thecanadianencyclopedia.ca/en/article/john-bracken",
@@ -547,6 +711,58 @@
             [
                 "Progressive Party",
                 "Manitoba Premier Party Takeover"
+            ]
+        ]
+    ],
+    "Progressive Conservative Party (Clark-Mulroney era)": [
+        "nfc",
+        "https://thecanadianencyclopedia.ca/en/article/brian-mulroney",
+        1750,
+        3200,
+        [
+            [
+                "Blue Tory Liberalism",
+                ""
+            ],
+            [
+                "Progressive Conservative Party (Diefenbaker era)",
+                ""
+            ],
+            [
+                "Québec Separatism",
+                "Political Alliance"
+            ]
+        ]
+    ],
+    "Progressive Conservative Party (Diefenbaker era)": [
+        "nfc",
+        "https://thecanadianencyclopedia.ca/en/article/john-diefenbaker",
+        1750,
+        2575,
+        [
+            [
+                "Prairie Red Tory Populists",
+                ""
+            ],
+            [
+                "Progressive Conservative Party (Bracken-Drew era)",
+                ""
+            ],
+            [
+                "Union Nationale",
+                "Political Support"
+            ]
+        ]
+    ],
+    "Progressive Conservative Party (Rump era)": [
+        "mfc",
+        "https://thecanadianencyclopedia.ca/en/article/kim-campbell",
+        1875,
+        3325,
+        [
+            [
+                "Progressive Conservative Party (Clark-Mulroney era)",
+                ""
             ]
         ]
     ],
@@ -580,6 +796,30 @@
         700,
         []
     ],
+    "Reform Party": [
+        "pfr",
+        "https://thecanadianencyclopedia.ca/en/article/reform-party-of-canada",
+        1675,
+        3325,
+        [
+            [
+                "Christian Right",
+                ""
+            ],
+            [
+                "Immigration Restrictionism",
+                ""
+            ],
+            [
+                "Progressive Conservative Party (Clark-Mulroney era)",
+                ""
+            ],
+            [
+                "Western Canadian Regionalism",
+                ""
+            ]
+        ]
+    ],
     "''Rummies''": [
         "mf",
         "https://www.erudit.org/en/journals/hp/1986-v21-n1-hp1121/030948ar",
@@ -595,6 +835,32 @@
         [
             [
                 "Temperance Movement",
+                ""
+            ]
+        ]
+    ],
+    "Social Gospel": [
+        "ai",
+        "https://thecanadianencyclopedia.ca/en/article/social-gospel",
+        500,
+        2425,
+        []
+    ],
+    "Socialism": [
+        "ni",
+        "https://thecanadianencyclopedia.ca/en/article/socialism",
+        375,
+        2175,
+        []
+    ],
+    "Socialist Party": [
+        "pf",
+        "https://en.wikipedia.org/wiki/Socialist_Party_of_Canada_(WSM)",
+        225,
+        2225,
+        [
+            [
+                "Socialism",
                 ""
             ]
         ]
@@ -636,6 +902,13 @@
             ]
         ]
     ],
+    "Union Nationale": [
+        "ff",
+        "https://thecanadianencyclopedia.ca/en/article/union-nationale",
+        1875,
+        2775,
+        []
+    ],
     "United Farmers of Alberta": [
         "pf",
         "https://thecanadianencyclopedia.ca/en/article/united-farmers-of-alberta",
@@ -651,5 +924,12 @@
                 "Alberta MPs"
             ]
         ]
+    ],
+    "Western Canadian Regionalism": [
+        "pi",
+        "https://en.wikipedia.org/wiki/Western_alienation#Contemporary_western_alienation",
+        1800,
+        3425,
+        []
     ]
 }

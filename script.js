@@ -65,6 +65,7 @@ function renderNodes(data) {
         switch (type[1]) {
             case "i": shape.classList.add("node__shape--ideology"); break
             case "f": shape.classList.add("node__shape--faction"); break
+            case "c": shape.classList.add("node__shape--current"); break
         }
         if (type.length > 2) {
             switch (type[2]) {
@@ -155,9 +156,9 @@ function renderArrows(data) {
                 const midX = (x1 + x2) / 2
                 const midY = (y1 + y2) / 2
                 const fo = document.createElementNS("http://www.w3.org/2000/svg", "foreignObject")
-                fo.setAttribute("x", midX - 72)
+                fo.setAttribute("x", midX - 76)
                 fo.setAttribute("y", midY - 64)
-                fo.setAttribute("width", 144)
+                fo.setAttribute("width", 152)
                 fo.setAttribute("height", 128)
                 const div = document.createElement("div")
                 div.className = "arrow__text"
