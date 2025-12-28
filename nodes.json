@@ -39,6 +39,33 @@
             ]
         ]
     ],
+    "Bloc Québécois": [
+        "fcb",
+        "https://thecanadianencyclopedia.ca/en/article/bloc-quebecois",
+        1450,
+        3025,
+        [
+            [
+                "Liberal Party (Trudeau-Turner era)",
+                "Separatist MPs"
+            ],
+            [
+                "Progressive Conservative Party (Clark-Mulroney era)",
+                "Separatist MPs"
+            ],
+            [
+                "Québec Separatism",
+                ""
+            ]
+        ]
+    ],
+    "Blue Tory Liberalism": [
+        "ai",
+        "https://en.wikipedia.org/wiki/Blue_Tory",
+        1450,
+        3175,
+        []
+    ],
     "Bourassien Nationalism": [
         "fi",
         "https://thecanadianencyclopedia.ca/en/article/henri-bourassa",
@@ -244,6 +271,13 @@
             ]
         ]
     ],
+    "Consistent Social Liberalism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Social_liberalism",
+        950,
+        3300,
+        []
+    ],
     "Continentalism": [
         "ni",
         "https://thecanadianencyclopedia.ca/en/article/continentalism",
@@ -276,13 +310,16 @@
         "https://thecanadianencyclopedia.ca/en/article/electoral-reform",
         725,
         3400,
+        []
+    ],
+    "Environmentalism": [
+        "ni",
+        "https://www.thecanadianencyclopedia.ca/en/article/environmental-and-conservation-movements",
+        750,
+        3225,
         [
             [
-                "Electoral Reformism",
-                ""
-            ],
-            [
-                "New Democratic Party (Broadbent era)",
+                "New Left",
                 ""
             ]
         ]
@@ -305,6 +342,18 @@
         740,
         1225,
         []
+    ],
+    "Green Party": [
+        "ncg",
+        "https://thecanadianencyclopedia.ca/en/article/green-party-of-canada",
+        925,
+        3175,
+        [
+            [
+                "Environmentalism",
+                ""
+            ]
+        ]
     ],
     "Immigration Restrictionism": [
         "ni",
@@ -421,6 +470,22 @@
             ]
         ]
     ],
+    "Liberal Party (Chrétien era)": [
+        "nfl",
+        "https://thecanadianencyclopedia.ca/en/article/joseph-jacques-jean-chretien",
+        1250,
+        3250,
+        [
+            [
+                "Liberal Party (Trudeau-Turner era)",
+                ""
+            ],
+            [
+                "Third Way Centrism",
+                ""
+            ]
+        ]
+    ],
     "Liberal Party (Contemporary era)": [
         "ncl",
         "https://thecanadianencyclopedia.ca/en/article/mark-carney",
@@ -513,6 +578,34 @@
             ]
         ]
     ],
+    "Liberal Party (Martin-Ignatieff era)": [
+        "nfl",
+        "https://thecanadianencyclopedia.ca/en/article/paul-edgar-philippe-martin",
+        1100,
+        3375,
+        [
+            [
+                "Liberal Party (Chrétien era)",
+                ""
+            ]
+        ]
+    ],
+    "Liberal Party (Pearson era)": [
+        "nfl",
+        "https://thecanadianencyclopedia.ca/en/article/lester-bowles-pearson",
+        1375,
+        2625,
+        [
+            [
+                "Liberal Party (King-St. Laurent era)",
+                ""
+            ],
+            [
+                "Plurinational Canadianism",
+                ""
+            ]
+        ]
+    ],
     "Liberal Party (Trudeau era)": [
         "nfl",
         "https://thecanadianencyclopedia.ca/en/article/justin-trudeau",
@@ -545,6 +638,26 @@
             ]
         ]
     ],
+    "Liberal Party (Trudeau-Turner era)": [
+        "nfl",
+        "https://thecanadianencyclopedia.ca/en/article/pierre-elliott-trudeau",
+        1375,
+        2775,
+        [
+            [
+                "Liberal Party (Pearson era)",
+                ""
+            ],
+            [
+                "Multiculturalism",
+                ""
+            ],
+            [
+                "New Left",
+                ""
+            ]
+        ]
+    ],
     "Libertarianism": [
         "ni",
         "https://thecanadianencyclopedia.ca/en/article/libertarianism-in-canada",
@@ -571,6 +684,13 @@
                 ""
             ]
         ]
+    ],
+    "Multiculturalism": [
+        "ni",
+        "https://thecanadianencyclopedia.ca/en/article/multiculturalism",
+        1575,
+        2675,
+        []
     ],
     "''National Policy'' Protectionism": [
         "ni",
@@ -643,6 +763,18 @@
             ]
         ]
     ],
+    "New Democracy": [
+        "nf",
+        "https://thecanadianencyclopedia.ca/en/article/william-duncan-herridge",
+        975,
+        2625,
+        [
+            [
+                "Western Social Credit League",
+                ""
+            ]
+        ]
+    ],
     "New Democratic Party (Broadbent era)": [
         "nfd",
         "https://thecanadianencyclopedia.ca/en/article/john-edward-broadbent",
@@ -702,6 +834,13 @@
                 ""
             ]
         ]
+    ],
+    "New Left": [
+        "ni",
+        "https://thecanadianencyclopedia.ca/en/article/new-left",
+        850,
+        2675,
+        []
     ],
     "Nova Scotia Anti-Confederation Party": [
         "mf",
@@ -841,9 +980,30 @@
             ]
         ]
     ],
+    "Plurinational Canadianism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Plurinationalism",
+        1575,
+        2475,
+        []
+    ],
+    "Political Anti-semitism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Antisemitism_in_Canada",
+        1250,
+        2375,
+        []
+    ],
+    "Post-nationalism": [
+        "oi",
+        "https://en.wikipedia.org/wiki/Postnationalism#In_Canada",
+        1200,
+        3475,
+        []
+    ],
     "Prairie Red Tory Populists": [
         "pf",
-        "https://en.wikipedia.org/wiki/Red_Tory",
+        "https://thecanadianencyclopedia.ca/en/article/red-tory",
         1925,
         2475,
         []
@@ -947,12 +1107,38 @@
         1375,
         []
     ],
+    "Protestant Fundamentalism": [
+        "ai",
+        "https://thecanadianencyclopedia.ca/en/article/evangelical-and-fundamentalist-movements",
+        850,
+        2525,
+        []
+    ],
+    "Québec Separatism": [
+        "fi",
+        "https://en.wikipedia.org/wiki/Quebec_sovereignty_movement",
+        1625,
+        2875,
+        []
+    ],
     "Radical-Continental Liberalism": [
         "ni",
         "https://en.wikipedia.org/wiki/Classical_radicalism",
         835,
         700,
         []
+    ],
+    "Ralliement Créditiste": [
+        "ffs",
+        "https://en.wikipedia.org/wiki/Ralliement_créditiste",
+        900,
+        2950,
+        [
+            [
+                "Social Credit Party",
+                "Caouette Wing"
+            ]
+        ]
     ],
     "Reform Party": [
         "pfr",
@@ -997,6 +1183,65 @@
             ]
         ]
     ],
+    "Social Credit": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Social_credit",
+        1100,
+        2375,
+        []
+    ],
+    "Social Credit Party": [
+        "nfs",
+        "https://thecanadianencyclopedia.ca/en/article/social-credit",
+        1075,
+        2800,
+        [
+            [
+                "New Democracy",
+                ""
+            ],
+            [
+                "Union des Électeurs",
+                ""
+            ],
+            [
+                "Western Social Credit League",
+                ""
+            ]
+        ]
+    ],
+    "Social Credit Party (Caouette era)": [
+        "nfs",
+        "https://thecanadianencyclopedia.ca/en/article/real-caouette",
+        1075,
+        3100,
+        [
+            [
+                "Ralliement Créditiste",
+                ""
+            ],
+            [
+                "Social Credit Party (Thompson era)",
+                ""
+            ]
+        ]
+    ],
+    "Social Credit Party (Thompson era)": [
+        "afs",
+        "https://thecanadianencyclopedia.ca/en/article/robert-norman-thompson",
+        1200,
+        2950,
+        [
+            [
+                "Blue Tory Liberalism",
+                ""
+            ],
+            [
+                "Social Credit Party",
+                "Manning Wing"
+            ]
+        ]
+    ],
     "Social Gospel": [
         "ai",
         "https://thecanadianencyclopedia.ca/en/article/social-gospel",
@@ -1037,12 +1282,35 @@
         700,
         []
     ],
+    "Third Way Centrism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Third_Way",
+        1075,
+        3225,
+        []
+    ],
     "Ultramontanism": [
         "fi",
         "https://www.thecanadianencyclopedia.ca/en/article/ultramontanism",
         1025,
         1225,
         []
+    ],
+    "Union des Électeurs": [
+        "ff",
+        "https://thecanadianencyclopedia.ca/en/article/creditistes",
+        1250,
+        2500,
+        [
+            [
+                "Political Anti-semitism",
+                ""
+            ],
+            [
+                "Social Credit",
+                ""
+            ]
+        ]
     ],
     "Unionist Government": [
         "nfo",
@@ -1105,5 +1373,29 @@
         1800,
         3425,
         []
+    ],
+    "Western Social Credit League": [
+        "pf",
+        "https://thecanadianencyclopedia.ca/en/article/william-aberhart",
+        1050,
+        2500,
+        [
+            [
+                "Progressive Party",
+                "Socially Conservative Supporters"
+            ],
+            [
+                "Protestant Fundamentalism",
+                ""
+            ],
+            [
+                "Social Credit",
+                ""
+            ],
+            [
+                "United Farmers of Alberta",
+                "Socially Conservative Supporters"
+            ]
+        ]
     ]
 }
