@@ -62,7 +62,7 @@ body {
 
 body::after {
     content: "";
-    /*background-image: var(--chart);*/
+    background-image: var(--chart);
     position: absolute;
     top: 0;
     right: 0;
@@ -222,7 +222,7 @@ body::after {
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 472px;
+    top: 408px;
     left: 2121px;
     gap: 128px;
     font-size: 20px;

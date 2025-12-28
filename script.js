@@ -121,13 +121,36 @@ function defineArrowMarker(svg, className = "arrow--default") {
     marker.appendChild(path)
     defs.appendChild(marker)
 }
+function intersectSquare(x1, y1, x2, y2, half) {
+    const dx = x2 - x1
+    const dy = y2 - y1
+    const adx = Math.abs(dx)
+    const ady = Math.abs(dy)
+    const t = adx > ady
+        ? half / adx
+        : half / ady
+    return {
+        x: x2 - dx * t,
+        y: y2 - dy * t
+    }
+}
+function intersectCircle(x1, y1, x2, y2, radius) {
+    const dx = x2 - x1
+    const dy = y2 - y1
+    const len = Math.hypot(dx, dy) || 1
+    return {
+        x: x2 - (dx / len) * radius,
+        y: y2 - (dy / len) * radius
+    }
+}
 function renderArrows(data) {
     const rect = chart.getBoundingClientRect()
     arrows.setAttribute("width", rect.width)
     arrows.setAttribute("height", rect.height)
-    defineArrowMarker(arrows) // default marker
+    defineArrowMarker(arrows)
     Object.entries(data).forEach(([_, node]) => {
         const type = node[TYPE]
+        const shapeType = type[1]
         const party = type.length > 2 ? type[2] : null
         const partyClass = PARTY_ARROW_CLASS[party] || "arrow"
         const incoming = node[IN]
@@ -140,15 +163,17 @@ function renderArrows(data) {
             const y1 = from[Y]
             const x2 = node[X]
             const y2 = node[Y]
-            const dx = x2 - x1
-            const dy = y2 - y1
-            const half = 36
-            const t = Math.min(half / Math.abs(dx || 1), half / Math.abs(dy || 1))
+            let end
+            if (shapeType === "i") {
+                end = intersectCircle(x1, y1, x2, y2, 36)
+            } else {
+                end = intersectSquare(x1, y1, x2, y2, 36)
+            }
             const line = document.createElementNS("http://www.w3.org/2000/svg", "line")
             line.setAttribute("x1", x1)
             line.setAttribute("y1", y1)
-            line.setAttribute("x2", x2 - dx * t)
-            line.setAttribute("y2", y2 - dy * t)
+            line.setAttribute("x2", end.x)
+            line.setAttribute("y2", end.y)
             line.setAttribute("marker-end", `url(#arrowhead-${partyClass})`)
             line.classList.add("arrow", partyClass)
             arrows.appendChild(line)
@@ -169,4 +194,3 @@ function renderArrows(data) {
         })
     })
 }
-

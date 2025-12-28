@@ -78,6 +78,18 @@
             ]
         ]
     ],
+    "Canadian Labour Congress": [
+        "nc",
+        "https://thecanadianencyclopedia.ca/en/article/canadian-labour-congress",
+        575,
+        2700,
+        [
+            [
+                "Industrial Unionism",
+                ""
+            ]
+        ]
+    ],
     "Canadian Reform Movement": [
         "af",
         "https://thecanadianencyclopedia.ca/en/article/reform-movement-in-upper-canada",
@@ -154,6 +166,14 @@
         275,
         2450,
         [
+            [
+                "Industrial Unionism",
+                ""
+            ],
+            [
+                "Jewish Left",
+                ""
+            ],
             [
                 "Socialist Party",
                 "Revolutionaries"
@@ -251,6 +271,22 @@
             ]
         ]
     ],
+    "Electoral Reformism": [
+        "ni",
+        "https://thecanadianencyclopedia.ca/en/article/electoral-reform",
+        725,
+        3400,
+        [
+            [
+                "Electoral Reformism",
+                ""
+            ],
+            [
+                "New Democratic Party (Broadbent era)",
+                ""
+            ]
+        ]
+    ],
     "Family Compact": [
         "af",
         "https://thecanadianencyclopedia.ca/en/article/family-compact",
@@ -300,12 +336,42 @@
             ]
         ]
     ],
+    "Industrial Unionism": [
+        "ni",
+        "https://thecanadianencyclopedia.ca/en/article/industrial-unionism",
+        375,
+        2650,
+        []
+    ],
+    "Jewish Left": [
+        "oi",
+        "https://en.wikipedia.org/wiki/J._B._Salsberg",
+        175,
+        2565,
+        []
+    ],
     "Keynesianism": [
         "ni",
         "https://thecanadianencyclopedia.ca/en/article/keynesian-economics",
         1475,
         2050,
         []
+    ],
+    "Labor-Progressive Party": [
+        "nf",
+        "https://en.wikipedia.org/wiki/Labor-Progressive_Party",
+        275,
+        2725,
+        [
+            [
+                "Communist Party",
+                "Front Organization"
+            ],
+            [
+                "Jewish Left",
+                ""
+            ]
+        ]
     ],
     "Laurier Liberals": [
         "nfl",
@@ -351,38 +417,6 @@
             ],
             [
                 "Parti Bleu",
-                ""
-            ]
-        ]
-    ],
-    "Liberal Party": [
-        "nfl",
-        "https://thecanadianencyclopedia.ca/en/article/alexander-mackenzie",
-        885,
-        1375,
-        [
-            [
-                "Clear Grits",
-                ""
-            ],
-            [
-                "Continentalism",
-                ""
-            ],
-            [
-                "New Brunswick Anti-Confederation Party",
-                ""
-            ],
-            [
-                "Nova Scotia Anti-Confederation Party",
-                ""
-            ],
-            [
-                "Parti Rouge",
-                ""
-            ],
-            [
-                "Pro-Riel Sentiment",
                 ""
             ]
         ]
@@ -434,7 +468,7 @@
         1600,
         [
             [
-                "Liberal Party",
+                "Liberal Party (Mackenzie era)",
                 ""
             ],
             [
@@ -443,6 +477,70 @@
             ],
             [
                 "Tariff Reformism",
+                ""
+            ]
+        ]
+    ],
+    "Liberal Party (Mackenzie era)": [
+        "nfl",
+        "https://thecanadianencyclopedia.ca/en/article/alexander-mackenzie",
+        885,
+        1375,
+        [
+            [
+                "Clear Grits",
+                ""
+            ],
+            [
+                "Continentalism",
+                ""
+            ],
+            [
+                "New Brunswick Anti-Confederation Party",
+                ""
+            ],
+            [
+                "Nova Scotia Anti-Confederation Party",
+                ""
+            ],
+            [
+                "Parti Rouge",
+                ""
+            ],
+            [
+                "Pro-Riel Sentiment",
+                ""
+            ]
+        ]
+    ],
+    "Liberal Party (Trudeau era)": [
+        "nfl",
+        "https://thecanadianencyclopedia.ca/en/article/justin-trudeau",
+        1025,
+        3525,
+        [
+            [
+                "Consistent Social Liberalism",
+                ""
+            ],
+            [
+                "Electoral Reformism",
+                ""
+            ],
+            [
+                "Environmentalism",
+                ""
+            ],
+            [
+                "Liberal Party (Martin-Ignatieff era)",
+                ""
+            ],
+            [
+                "New Democratic Party (Singh era)",
+                "Slavish Loyalty"
+            ],
+            [
+                "Post-nationalism",
                 ""
             ]
         ]
@@ -541,6 +639,66 @@
             ],
             [
                 "Accountability Reformism",
+                ""
+            ]
+        ]
+    ],
+    "New Democratic Party (Broadbent era)": [
+        "nfd",
+        "https://thecanadianencyclopedia.ca/en/article/john-edward-broadbent",
+        575,
+        3175,
+        [
+            [
+                "New Democratic Party (Douglas era)",
+                ""
+            ]
+        ]
+    ],
+    "New Democratic Party (Douglas era)": [
+        "nfd",
+        "https://thecanadianencyclopedia.ca/en/article/tommy-douglas",
+        675,
+        2950,
+        [
+            [
+                "Canadian Labour Congress",
+                ""
+            ],
+            [
+                "Co-operative Commonwealth Federation",
+                ""
+            ],
+            [
+                "New Left",
+                ""
+            ]
+        ]
+    ],
+    "New Democratic Party (Layton era)": [
+        "nfd",
+        "https://thecanadianencyclopedia.ca/en/article/jack-layton",
+        450,
+        3450,
+        [
+            [
+                "Electoral Reformism",
+                ""
+            ],
+            [
+                "New Democratic Party (Broadbent era)",
+                ""
+            ]
+        ]
+    ],
+    "New Democratic Party (Singh era)": [
+        "ncd",
+        "https://thecanadianencyclopedia.ca/en/article/jagmeet-singh",
+        575,
+        3625,
+        [
+            [
+                "New Democratic Party (Layton era)",
                 ""
             ]
         ]
@@ -922,6 +1080,22 @@
             [
                 "Progressive Party",
                 "Alberta MPs"
+            ]
+        ]
+    ],
+    "United Progressives": [
+        "pf",
+        "https://www.facebook.com/UPPartyOfCanada",
+        500,
+        2600,
+        [
+            [
+                "Communist Party",
+                "Front Organization"
+            ],
+            [
+                "Co-operative Commonwealth Federation",
+                "Dual Members"
             ]
         ]
     ],
