@@ -62,6 +62,7 @@ body {
 
 body::after {
     content: "";
+    /*background-image: var(--chart);*/
     position: absolute;
     top: 0;
     right: 0;
@@ -319,7 +320,7 @@ body::after {
 
 .node__shape--current {
     border: solid 8px var(--fg);
-    border-radius: 0.01px;
+    border-radius: 8px;
 }
 
 .node__shape--liberal {

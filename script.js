@@ -48,7 +48,11 @@ function renderNodes(data) {
             shape.target = "_blank"
         }
         if (name.length > 24) {
-            text.style.width = "224px"
+            if (name.length > 40) {
+                text.style.width = "256px"
+            } else {
+                text.style.width = "224px"
+            }
         }
         switch (type[0]) {
             case "a": shape.classList.add("node__shape--anglo"); break
@@ -151,9 +155,9 @@ function renderArrows(data) {
                 const midX = (x1 + x2) / 2
                 const midY = (y1 + y2) / 2
                 const fo = document.createElementNS("http://www.w3.org/2000/svg", "foreignObject")
-                fo.setAttribute("x", midX - 64)
+                fo.setAttribute("x", midX - 72)
                 fo.setAttribute("y", midY - 64)
-                fo.setAttribute("width", 128)
+                fo.setAttribute("width", 144)
                 fo.setAttribute("height", 128)
                 const div = document.createElement("div")
                 div.className = "arrow__text"

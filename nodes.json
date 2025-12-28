@@ -20,6 +20,37 @@
         1475,
         []
     ],
+    "Bay Street Conservative Establishment": [
+        "af",
+        "https://en.wikipedia.org/wiki/Bay_Street",
+        1925,
+        2250,
+        []
+    ],
+    "Bloc Populaire": [
+        "ff",
+        "https://thecanadianencyclopedia.ca/en/article/bloc-populaire-canadien",
+        1400,
+        1900,
+        [
+            [
+                "Bourassien Nationalism",
+                ""
+            ]
+        ]
+    ],
+    "Bourassien Nationalism": [
+        "fi",
+        "https://thecanadianencyclopedia.ca/en/article/henri-bourassa",
+        1250,
+        1925,
+        [
+            [
+                "Ultramontanism",
+                ""
+            ]
+        ]
+    ],
     "British Loyalism": [
         "ai",
         "https://thecanadianencyclopedia.ca/en/article/loyalists",
@@ -90,6 +121,38 @@
             ]
         ]
     ],
+    "Conservative Party (Meighen-Bennett era)": [
+        "nfo",
+        "https://thecanadianencyclopedia.ca/en/article/arthur-meighen",
+        1750,
+        2150,
+        [
+            [
+                "''Imperial Preference'' Imperialism",
+                ""
+            ],
+            [
+                "Unionist Government",
+                "Conservative Unionists"
+            ]
+        ]
+    ],
+    "Conservative Party (Tupper-Borden era)": [
+        "nfo",
+        "https://thecanadianencyclopedia.ca/en/article/sir-robert-borden",
+        1750,
+        1700,
+        [
+            [
+                "Liberal-Conservative Party",
+                ""
+            ],
+            [
+                "Orangemen Protestantism",
+                ""
+            ]
+        ]
+    ],
     "Continentalism": [
         "ni",
         "https://thecanadianencyclopedia.ca/en/article/continentalism",
@@ -115,6 +178,36 @@
         740,
         1225,
         []
+    ],
+    "''Imperial Preference'' Imperialism": [
+        "ai",
+        "https://en.wikipedia.org/wiki/Imperial_Preference",
+        1925,
+        2000,
+        []
+    ],
+    "Keynesianism": [
+        "ni",
+        "https://thecanadianencyclopedia.ca/en/article/keynesian-economics",
+        1475,
+        2050,
+        []
+    ],
+    "Laurier Liberals": [
+        "nfl",
+        "https://en.wikipedia.org/wiki/Laurier_Liberals",
+        950,
+        1975,
+        [
+            [
+                "Bourassien Nationalism",
+                ""
+            ],
+            [
+                "Liberal Party (Laurier era)",
+                "Anti-Conscription"
+            ]
+        ]
     ],
     "Liberal-Conservative Party": [
         "nfo",
@@ -176,6 +269,70 @@
             ],
             [
                 "Pro-Riel Sentiment",
+                ""
+            ]
+        ]
+    ],
+    "Liberal Party (King-St. Laurent era)": [
+        "nfl",
+        "https://thecanadianencyclopedia.ca/en/article/william-lyon-mackenzie-king",
+        1475,
+        2175,
+        [
+            [
+                "Keynesianism",
+                ""
+            ],
+            [
+                "Laurier Liberals",
+                ""
+            ],
+            [
+                "Progressive Party",
+                ""
+            ],
+            [
+                "Unionist Government",
+                "Liberal Unionists"
+            ]
+        ]
+    ],
+    "Liberal Party (Laurier era)": [
+        "nfl",
+        "https://thecanadianencyclopedia.ca/en/article/sir-wilfrid-laurier",
+        885,
+        1600,
+        [
+            [
+                "Liberal Party",
+                ""
+            ],
+            [
+                "McCarthyites",
+                "Political Alliance"
+            ],
+            [
+                "Tariff Reformism",
+                ""
+            ]
+        ]
+    ],
+    "McCarthyites": [
+        "af",
+        "https://www.biographi.ca/en/bio/mccarthy_d_alton_12E.html",
+        1300,
+        1600,
+        [
+            [
+                "Liberal-Conservative Party",
+                "Breakaway"
+            ],
+            [
+                "Orangemen Protestantism",
+                ""
+            ],
+            [
+                "Tariff Reformism",
                 ""
             ]
         ]
@@ -294,6 +451,13 @@
             ]
         ]
     ],
+    "Orangemen Protestantism": [
+        "ai",
+        "https://thecanadianencyclopedia.ca/en/article/orange-order",
+        1475,
+        1625,
+        []
+    ],
     "Parti Bleu": [
         "ff",
         "https://thecanadianencyclopedia.ca/en/article/parti-bleu",
@@ -346,6 +510,62 @@
             ]
         ]
     ],
+    "Patrons of Industry Party": [
+        "af",
+        "https://en.wikipedia.org/wiki/Patrons_of_Industry",
+        725,
+        1525,
+        [
+            [
+                "Agrarianism",
+                ""
+            ],
+            [
+                "Tariff Reformism",
+                ""
+            ]
+        ]
+    ],
+    "Progressive Conservative Party (Bracken-Drew era)": [
+        "nfc",
+        "https://thecanadianencyclopedia.ca/en/article/john-bracken",
+        1750,
+        2375,
+        [
+            [
+                "Bay Street Conservative Establishment",
+                ""
+            ],
+            [
+                "Conservative Party (Meighen-Bennett era)",
+                ""
+            ],
+            [
+                "Prairie Red Tory Populists",
+                ""
+            ],
+            [
+                "Progressive Party",
+                "Manitoba Premier Party Takeover"
+            ]
+        ]
+    ],
+    "Progressive Party": [
+        "nfp",
+        "https://thecanadianencyclopedia.ca/en/article/progressive-party",
+        900,
+        2125,
+        [
+            [
+                "Agrarianism",
+                ""
+            ],
+            [
+                "Unionist Government",
+                "Pro-Free Trade Westerners"
+            ]
+        ]
+    ],
     "Pro-Riel Sentiment": [
         "fi",
         "https://thecanadianencyclopedia.ca/en/article/louis-riel",
@@ -379,6 +599,13 @@
             ]
         ]
     ],
+    "Tariff Reformism": [
+        "ni",
+        "",
+        800,
+        1725,
+        []
+    ],
     "Temperance Movement": [
         "ni",
         "https://thecanadianencyclopedia.ca/en/article/temperance-movement",
@@ -389,8 +616,40 @@
     "Ultramontanism": [
         "fi",
         "https://www.thecanadianencyclopedia.ca/en/article/ultramontanism",
-        1045,
+        1025,
         1225,
         []
+    ],
+    "Unionist Government": [
+        "nfo",
+        "https://thecanadianencyclopedia.ca/en/article/union-government",
+        1750,
+        1925,
+        [
+            [
+                "Conservative Party (Tupper-Borden era)",
+                ""
+            ],
+            [
+                "Liberal Party (Laurier era)",
+                "Pro-conscription"
+            ]
+        ]
+    ],
+    "United Farmers of Alberta": [
+        "pf",
+        "https://thecanadianencyclopedia.ca/en/article/united-farmers-of-alberta",
+        600,
+        2250,
+        [
+            [
+                "Agrarianism",
+                ""
+            ],
+            [
+                "Progressive Party",
+                "Alberta MPs"
+            ]
+        ]
     ]
 }
