@@ -1,0 +1,396 @@
+{
+    "Accountability Reformism": [
+        "mi",
+        "https://thecanadianencyclopedia.ca/en/article/responsible-government",
+        1920,
+        1100,
+        []
+    ],
+    "Agrarianism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Agrarianism",
+        510,
+        1375,
+        []
+    ],
+    "Anti-Riel Sentiment": [
+        "ai",
+        "https://thecanadianencyclopedia.ca/en/article/louis-riel",
+        1175,
+        1475,
+        []
+    ],
+    "British Loyalism": [
+        "ai",
+        "https://thecanadianencyclopedia.ca/en/article/loyalists",
+        1300,
+        700,
+        []
+    ],
+    "Canadian Reform Movement": [
+        "af",
+        "https://thecanadianencyclopedia.ca/en/article/reform-movement-in-upper-canada",
+        885,
+        900,
+        [
+            [
+                "Chartism",
+                ""
+            ],
+            [
+                "Radical-Continental Liberalism",
+                ""
+            ]
+        ]
+    ],
+    "Canadian Tories": [
+        "af",
+        "https://thecanadianencyclopedia.ca/en/article/sir-john-alexander-macdonald",
+        1300,
+        1100,
+        [
+            [
+                "Château Clique",
+                ""
+            ],
+            [
+                "Family Compact",
+                ""
+            ]
+        ]
+    ],
+    "Chartism": [
+        "ai",
+        "https://en.wikipedia.org/wiki/Chartism",
+        1045,
+        700,
+        []
+    ],
+    "Château Clique": [
+        "af",
+        "https://thecanadianencyclopedia.ca/en/article/chateau-clique",
+        1215,
+        900,
+        [
+            [
+                "British Loyalism",
+                ""
+            ]
+        ]
+    ],
+    "Clear Grits": [
+        "af",
+        "https://thecanadianencyclopedia.ca/en/article/clear-grits",
+        885,
+        1225,
+        [
+            [
+                "Canadian Reform Movement",
+                "Western Radicals"
+            ]
+        ]
+    ],
+    "Continentalism": [
+        "ni",
+        "https://thecanadianencyclopedia.ca/en/article/continentalism",
+        985,
+        1475,
+        []
+    ],
+    "Family Compact": [
+        "af",
+        "https://thecanadianencyclopedia.ca/en/article/family-compact",
+        1385,
+        900,
+        [
+            [
+                "British Loyalism",
+                ""
+            ]
+        ]
+    ],
+    "Gallicanism": [
+        "fi",
+        "https://thecanadianencyclopedia.ca/en/article/gallicanism",
+        740,
+        1225,
+        []
+    ],
+    "Liberal-Conservative Party": [
+        "nfo",
+        "https://en.wikipedia.org/wiki/Liberal-Conservative_Party",
+        1300,
+        1425,
+        [
+            [
+                "Anti-Riel Sentiment",
+                ""
+            ],
+            [
+                "Canadian Tories",
+                ""
+            ],
+            [
+                "''National Policy'' Protectionism",
+                ""
+            ],
+            [
+                "New Brunswick Confederation Party",
+                ""
+            ],
+            [
+                "Nova Scotia Confederation Party",
+                ""
+            ],
+            [
+                "Parti Bleu",
+                ""
+            ]
+        ]
+    ],
+    "Liberal Party": [
+        "nfl",
+        "https://thecanadianencyclopedia.ca/en/article/alexander-mackenzie",
+        885,
+        1375,
+        [
+            [
+                "Clear Grits",
+                ""
+            ],
+            [
+                "Continentalism",
+                ""
+            ],
+            [
+                "New Brunswick Anti-Confederation Party",
+                ""
+            ],
+            [
+                "Nova Scotia Anti-Confederation Party",
+                ""
+            ],
+            [
+                "Parti Rouge",
+                ""
+            ],
+            [
+                "Pro-Riel Sentiment",
+                ""
+            ]
+        ]
+    ],
+    "''National Policy'' Protectionism": [
+        "ni",
+        "https://thecanadianencyclopedia.ca/en/article/national-policy",
+        1525,
+        1400,
+        []
+    ],
+    "New Brunswick Anti-Confederation Party": [
+        "mf",
+        "https://en.wikipedia.org/wiki/Anti-Confederation_Party",
+        1485,
+        1185,
+        [
+            [
+                "New Brunswick Conservatives",
+                ""
+            ]
+        ]
+    ],
+    "New Brunswick Confederation Party": [
+        "mf",
+        "https://en.wikipedia.org/wiki/Confederation_Party",
+        1700,
+        1185,
+        [
+            [
+                "New Brunswick Conservatives",
+                ""
+            ],
+            [
+                "New Brunswick Liberals",
+                ""
+            ]
+        ]
+    ],
+    "New Brunswick Conservatives": [
+        "mf",
+        "https://thecanadianencyclopedia.ca/en/article/sir-samuel-leonard-tilley",
+        1555,
+        1000,
+        [
+            [
+                "''Rummies''",
+                "Majority"
+            ],
+            [
+                "''Smashers''",
+                "Minority"
+            ]
+        ]
+    ],
+    "New Brunswick Liberals": [
+        "mf",
+        "https://thecanadianencyclopedia.ca/en/article/sir-albert-james-smith",
+        1830,
+        1000,
+        [
+            [
+                "''Rummies''",
+                "Minority"
+            ],
+            [
+                "''Smashers''",
+                "Majority"
+            ],
+            [
+                "Accountability Reformism",
+                ""
+            ]
+        ]
+    ],
+    "Nova Scotia Anti-Confederation Party": [
+        "mf",
+        "https://en.wikipedia.org/wiki/Anti-Confederation_Party",
+        1750,
+        1320,
+        [
+            [
+                "Nova Scotia Reform Movement",
+                ""
+            ]
+        ]
+    ],
+    "Nova Scotia Confederation Party": [
+        "mf",
+        "https://en.wikipedia.org/wiki/Confederation_Party",
+        1750,
+        1500,
+        [
+            [
+                "Nova Scotia Conservatives",
+                ""
+            ]
+        ]
+    ],
+    "Nova Scotia Conservatives": [
+        "mf",
+        "https://thecanadianencyclopedia.ca/en/article/sir-charles-tupper",
+        1920,
+        1400,
+        []
+    ],
+    "Nova Scotia Reform Movement": [
+        "mf",
+        "https://thecanadianencyclopedia.ca/en/article/joseph-howe",
+        1920,
+        1220,
+        [
+            [
+                "Accountability Reformism",
+                ""
+            ]
+        ]
+    ],
+    "Parti Bleu": [
+        "ff",
+        "https://thecanadianencyclopedia.ca/en/article/parti-bleu",
+        1045,
+        1100,
+        [
+            [
+                "Canadian Reform Movement",
+                "Eastern Moderates"
+            ],
+            [
+                "Ultramontanism",
+                ""
+            ]
+        ]
+    ],
+    "Parti Rouge": [
+        "ff",
+        "https://thecanadianencyclopedia.ca/en/article/parti-rouge",
+        740,
+        1100,
+        [
+            [
+                "Canadian Reform Movement",
+                "Eastern Radicals"
+            ],
+            [
+                "Gallicanism",
+                ""
+            ],
+            [
+                "Patriote Movement",
+                ""
+            ]
+        ]
+    ],
+    "Patriote Movement": [
+        "ff",
+        "https://thecanadianencyclopedia.ca/en/article/patriotes",
+        660,
+        900,
+        [
+            [
+                "Agrarianism",
+                ""
+            ],
+            [
+                "Radical-Continental Liberalism",
+                ""
+            ]
+        ]
+    ],
+    "Pro-Riel Sentiment": [
+        "fi",
+        "https://thecanadianencyclopedia.ca/en/article/louis-riel",
+        740,
+        1375,
+        []
+    ],
+    "Radical-Continental Liberalism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Classical_radicalism",
+        835,
+        700,
+        []
+    ],
+    "''Rummies''": [
+        "mf",
+        "https://www.erudit.org/en/journals/hp/1986-v21-n1-hp1121/030948ar",
+        1555,
+        800,
+        []
+    ],
+    "''Smashers''": [
+        "mf",
+        "https://www.erudit.org/en/journals/hp/1986-v21-n1-hp1121/030948ar",
+        1830,
+        800,
+        [
+            [
+                "Temperance Movement",
+                ""
+            ]
+        ]
+    ],
+    "Temperance Movement": [
+        "ni",
+        "https://thecanadianencyclopedia.ca/en/article/temperance-movement",
+        1695,
+        700,
+        []
+    ],
+    "Ultramontanism": [
+        "fi",
+        "https://www.thecanadianencyclopedia.ca/en/article/ultramontanism",
+        1045,
+        1225,
+        []
+    ]
+}
