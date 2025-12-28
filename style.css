@@ -225,6 +225,7 @@ body::after {
     left: 2121px;
     gap: 128px;
     font-size: 20px;
+    z-index: 1;
 }
 
 .event {
