@@ -139,7 +139,7 @@ body::after {
     top: 184px;
     left: 124px;
     font-size: 32px;
-    z-index: 2;
+    z-index: 1;
 }
 
 #partiesLegend__grid {
@@ -264,7 +264,7 @@ body::after {
     position: absolute;
     transform: translate(-50%, -50%);
     font-size: 20px;
-    z-index: 3;
+    z-index: 2;
     width: 160px;
 }
 
@@ -272,7 +272,7 @@ body::after {
     display: block;
     width: 64px;
     height: 64px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .node .node__shape {
@@ -375,7 +375,7 @@ body::after {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 0;
     overflow: visible;
     inset: 0;
     width: 100%;
