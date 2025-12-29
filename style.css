@@ -139,7 +139,7 @@ body::after {
     top: 184px;
     left: 124px;
     font-size: 32px;
-    z-index: 1;
+    z-index: 2;
 }
 
 #partiesLegend__grid {
