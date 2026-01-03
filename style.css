@@ -49,8 +49,14 @@
     /*For wireframe kiddies*/
 }
 
-html,
+html {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
 body {
+    position: relative;
     width: 2676px;
     height: 3792px;
     z-index: -1;
