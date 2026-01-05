@@ -43,7 +43,7 @@
     text-decoration: none;
     user-select: none;
     color: #000000;
-    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff
     /*outline-offset: -1px;
     outline: solid 1px #0f0 !important;
     /*For wireframe kiddies*/
@@ -57,8 +57,8 @@ html {
 
 body {
     position: relative;
-    width: 2676px;
-    height: 3792px;
+    width: 1338px;
+    height: 1896px;
     z-index: -1;
     margin: 0;
     padding: 0;
@@ -78,8 +78,8 @@ body::after {
     background-size: cover;
     background-repeat: no-repeat;
     opacity: .15;
-    width: 2676px;
-    height: 3792px;
+    width: 1338px;
+    height: 1896px;
 }
 
 .theme-toggle {
@@ -130,29 +130,29 @@ body::after {
 
 #title {
     position: absolute;
-    top: 114px;
-    left: 672px;
-    font-size: 96px;
-    width: 1792px;
+    top: 57px;
+    left: 336px;
+    font-size: 48px;
+    width: 896px;
 }
 
 #partiesLegend {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    width: 576px;
+    gap: 12px;
+    width: 288px;
     position: absolute;
-    top: 184px;
-    left: 124px;
+    top: 92px;
+    left: 62px;
     font-size: 32px;
     z-index: 1;
 }
 
 #partiesLegend__grid {
     display: grid;
-    grid-template-columns: repeat(4, 144px);
-    grid-template-rows: repeat(3, 160px);
-    gap: 16px 0;
+    grid-template-columns: repeat(4, 72px);
+    grid-template-rows: repeat(3, 80px);
+    gap: 8px 0;
 }
 
 .legendParty {
@@ -166,28 +166,28 @@ body::after {
 }
 
 .legendParty__logo {
-    width: 96px;
-    height: 96px;
+    width: 48px;
+    height:48px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .legendParty__name {
-    font-size: 18px;
+    font-size: 10px;
 }
 
 #nodesLegend {
     position: absolute;
-    top: 273px;
-    left: 784px;
+    top: 137px;
+    left: 392px;
     height: fit-content;
     width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    gap: 48px;
+    gap: 24px;
     z-index: 1;
 }
 
@@ -196,14 +196,14 @@ body::after {
     flex-direction: row;
     align-items: center;
     justify-content: start;
-    gap: 46px;
-    font-size: 32px;
+    gap: 23px;
+    font-size: 16px;
 }
 
 .nodesLegend__grid {
     display: grid;
-    grid-template-columns: repeat(3, 320px);
-    gap: 30px 0;
+    grid-template-columns: repeat(3, 160px);
+    gap: 15px 0;
 }
 
 .nodeInfo {
@@ -211,16 +211,16 @@ body::after {
     flex-direction: row;
     align-items: center;
     justify-content: start;
-    gap: 16px;
-    width: 296px;
+    gap: 8px;
+    width: 148px;
 }
 
 .nodeInfo__text {
     display: flex;
     align-items: center;
-    font-size: 24px;
-    width: 208px;
-    height: 72px;
+    font-size: 12px;
+    width: 104px;
+    height: 36px;
     text-align: left;
 }
 
@@ -228,10 +228,10 @@ body::after {
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 408px;
-    left: 2121px;
-    gap: 128px;
-    font-size: 20px;
+    top: 204px;
+    left: 1060px;
+    gap: 64px;
+    font-size: 10px;
     z-index: 1;
 }
 
@@ -240,19 +240,20 @@ body::after {
     flex-direction: column;
     align-items: center;
     justify-content: end;
-    gap: 16px;
-    width: 396px;
-    height: 384px;
+    gap: 8px;
+    width: 198px;
+    height: 192px;
 }
 
 .event__text {
-    font-size: 32px;
+    font-size: 16px;
 }
 
 .event__image {
-    width: 384px;
-    border: solid 6px var(--fg);
-    border-radius: 6px;
+    width: 192px;
+    height: 128px;
+    border: solid 3px var(--fg);
+    border-radius: 3px;
 }
 
 #chart {
@@ -269,15 +270,15 @@ body::after {
     display: block;
     position: absolute;
     transform: translate(-50%, -50%);
-    font-size: 20px;
+    font-size: 10px;
     z-index: 2;
-    width: 160px;
+    width: 80px;
 }
 
 .node__shape {
     display: block;
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 32px;
     z-index: 1;
 }
 
@@ -316,65 +317,65 @@ body::after {
 
 .node__shape--ideology {
     border-radius: 100%;
-    border: solid 4px var(--fg);
+    border: solid 2px var(--fg);
 }
 
 .node__shape--faction {
-    border: solid 4px var(--fg);
+    border: solid 2px var(--fg);
     border-radius: 0.01px;
 }
 
 .node__shape--current {
-    border: solid 6px var(--fg);
+    border: solid 4px var(--fg);
     border-radius: 12px;
 }
 
 .node__shape--liberal {
-    outline: solid 4px var(--liberal);
+    outline: solid 2px var(--liberal);
 }
 
 .node__shape--conservativeOld {
-    outline: solid 4px var(--conservativeOld);
+    outline: solid 2px var(--conservativeOld);
 }
 
 .node__shape--progressive {
-    outline: solid 4px var(--progressive);
+    outline: solid 2px var(--progressive);
 }
 
 .node__shape--progressiveConservative {
-    outline: solid 4px var(--progressiveConservative);
+    outline: solid 2px var(--progressiveConservative);
 }
 
 .node__shape--cooperativeCommonwealth {
-    outline: solid 4px var(--cooperativeCommonwealth);
+    outline: solid 2px var(--cooperativeCommonwealth);
 }
 
 .node__shape--socialCredit {
-    outline: solid 4px var(--socialCredit);
+    outline: solid 2px var(--socialCredit);
 }
 
 .node__shape--newDemocratic {
-    outline: solid 4px var(--newDemocratic);
+    outline: solid 2px var(--newDemocratic);
 }
 
 .node__shape--blocQuebecois {
-    outline: solid 4px var(--blocQuebecois);
+    outline: solid 2px var(--blocQuebecois);
 }
 
 .node__shape--green {
-    outline: solid 4px var(--green);
+    outline: solid 2px var(--green);
 }
 
 .node__shape--reform {
-    outline: solid 4px var(--reform);
+    outline: solid 2px var(--reform);
 }
 
 .node__shape--conservativeNew {
-    outline: solid 4px var(--conservativeNew);
+    outline: solid 2px var(--conservativeNew);
 }
 
 .node__shape--peoples {
-    outline: solid 4px var(--peoples);
+    outline: solid 2px var(--peoples);
 }
 
 #arrows {
@@ -390,7 +391,7 @@ body::after {
 
 
 .arrow {
-    stroke-width: 3;
+    stroke-width: 2;
     stroke: var(--grey);
     fill: var(--grey);
 }
@@ -464,5 +465,5 @@ body::after {
     text-align: center;
     white-space: normal;
     pointer-events: none;
-    font-size: 20px;
+    font-size: 10px;
 }

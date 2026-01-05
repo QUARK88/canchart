@@ -49,9 +49,9 @@ function renderNodes(data) {
         }
         if (name.length > 24) {
             if (name.length > 40) {
-                text.style.width = "256px"
+                text.style.width = "128px"
             } else {
-                text.style.width = "224px"
+                text.style.width = "112px"
             }
         }
         switch (type[0]) {
@@ -109,14 +109,14 @@ function defineArrowMarker(svg, className = "arrow--default") {
     if (svg.querySelector(`#${id}`)) return
     const marker = document.createElementNS("http://www.w3.org/2000/svg", "marker")
     marker.setAttribute("id", id)
-    marker.setAttribute("markerWidth", "28")
-    marker.setAttribute("markerHeight", "16")
-    marker.setAttribute("refX", "28")
-    marker.setAttribute("refY", "8")
+    marker.setAttribute("markerWidth", "14")
+    marker.setAttribute("markerHeight", "8")
+    marker.setAttribute("refX", "14")
+    marker.setAttribute("refY", "4")
     marker.setAttribute("orient", "auto")
     marker.setAttribute("markerUnits", "userSpaceOnUse")
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path")
-    path.setAttribute("d", "M0,2 L28,8 L0,14 Z")
+    path.setAttribute("d", "M0,2 L14,4 L0,7 Z")
     path.classList.add("arrowhead", className)
     marker.appendChild(path)
     defs.appendChild(marker)
@@ -165,9 +165,9 @@ function renderArrows(data) {
             const y2 = node[Y]
             let end
             if (shapeType === "i") {
-                end = intersectCircle(x1, y1, x2, y2, 36)
+                end = intersectCircle(x1, y1, x2, y2, 18)
             } else {
-                end = intersectSquare(x1, y1, x2, y2, 36)
+                end = intersectSquare(x1, y1, x2, y2, 18)
             }
             const line = document.createElementNS("http://www.w3.org/2000/svg", "line")
             line.setAttribute("x1", x1)
@@ -181,10 +181,10 @@ function renderArrows(data) {
                 const midX = (x1 + x2) / 2
                 const midY = (y1 + y2) / 2
                 const fo = document.createElementNS("http://www.w3.org/2000/svg", "foreignObject")
-                fo.setAttribute("x", midX - 76)
-                fo.setAttribute("y", midY - 64)
-                fo.setAttribute("width", 152)
-                fo.setAttribute("height", 128)
+                fo.setAttribute("x", midX - 38)
+                fo.setAttribute("y", midY - 32)
+                fo.setAttribute("width", 76)
+                fo.setAttribute("height", 64)
                 const div = document.createElement("div")
                 div.className = "arrow__text"
                 div.textContent = label
