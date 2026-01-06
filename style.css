@@ -253,7 +253,7 @@ body::after {
     width: 192px;
     height: 128px;
     border: solid 3px var(--fg);
-    border-radius: 3px;
+    border-radius: 6px;
 }
 
 #chart {
