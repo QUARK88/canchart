@@ -137,7 +137,7 @@
         "af",
         "https://thecanadianencyclopedia.ca/en/article/sir-john-alexander-macdonald",
         650,
-        550,
+        500,
         [
             [
                 "Château Clique",
@@ -160,7 +160,7 @@
         "af",
         "https://thecanadianencyclopedia.ca/en/article/chateau-clique",
         600,
-        450,
+        425,
         [
             [
                 "British Loyalism",
@@ -281,14 +281,14 @@
     "Continentalism": [
         "ni",
         "https://thecanadianencyclopedia.ca/en/article/continentalism",
-        500,
-        750,
+        350,
+        700,
         []
     ],
     "Co-operative Commonwealth Federation": [
         "nfw",
         "https://thecanadianencyclopedia.ca/en/article/co-operative-commonwealth-federation",
-        350,
+        325,
         1225,
         [
             [
@@ -328,7 +328,7 @@
         "af",
         "https://thecanadianencyclopedia.ca/en/article/family-compact",
         700,
-        450,
+        425,
         [
             [
                 "British Loyalism",
@@ -339,8 +339,8 @@
     "Gallicanism": [
         "fi",
         "https://thecanadianencyclopedia.ca/en/article/gallicanism",
-        350,
-        625,
+        325,
+        600,
         []
     ],
     "Green Party": [
@@ -402,7 +402,7 @@
     "Keynesianism": [
         "ni",
         "https://thecanadianencyclopedia.ca/en/article/keynesian-economics",
-        750,
+        725,
         1025,
         []
     ],
@@ -426,7 +426,7 @@
         "nfl",
         "https://en.wikipedia.org/wiki/Laurier_Liberals",
         475,
-        1000,
+        975,
         [
             [
                 "Bourassien Nationalism",
@@ -530,7 +530,7 @@
         "nfl",
         "https://thecanadianencyclopedia.ca/en/article/sir-wilfrid-laurier",
         450,
-        800,
+        775,
         [
             [
                 "Liberal Party (Mackenzie era)",
@@ -703,7 +703,7 @@
         "mf",
         "https://en.wikipedia.org/wiki/Anti-Confederation_Party",
         725,
-        600,
+        575,
         [
             [
                 "New Brunswick Conservatives",
@@ -715,7 +715,7 @@
         "mf",
         "https://en.wikipedia.org/wiki/Confederation_Party",
         850,
-        600,
+        575,
         [
             [
                 "New Brunswick Conservatives",
@@ -948,7 +948,7 @@
         "af",
         "https://en.wikipedia.org/wiki/Patrons_of_Industry",
         350,
-        775,
+        750,
         [
             [
                 "Agrarianism",
@@ -1087,8 +1087,8 @@
     "Progressive Party": [
         "nfp",
         "https://thecanadianencyclopedia.ca/en/article/progressive-party",
-        450,
-        1075,
+        425,
+        1050,
         [
             [
                 "Agrarianism",
@@ -1103,15 +1103,15 @@
     "Pro-Riel Sentiment": [
         "fi",
         "https://thecanadianencyclopedia.ca/en/article/louis-riel",
-        350,
-        700,
+        375,
+        650,
         []
     ],
     "Protestant Fundamentalism": [
         "ai",
         "https://thecanadianencyclopedia.ca/en/article/evangelical-and-fundamentalist-movements",
         425,
-        1275,
+        1250,
         []
     ],
     "Québec Separatism": [
@@ -1214,7 +1214,7 @@
         "nfs",
         "https://thecanadianencyclopedia.ca/en/article/real-caouette",
         525,
-        1550,
+        1525,
         [
             [
                 "Ralliement Créditiste",
@@ -1245,15 +1245,15 @@
     "Social Gospel": [
         "ai",
         "https://thecanadianencyclopedia.ca/en/article/social-gospel",
-        250,
-        1225,
+        375,
+        1300,
         []
     ],
     "Socialism": [
         "ni",
         "https://thecanadianencyclopedia.ca/en/article/socialism",
         200,
-        1100,
+        1075,
         []
     ],
     "Socialist Party": [
@@ -1271,8 +1271,8 @@
     "Tariff Reformism": [
         "ni",
         "",
-        400,
-        875,
+        375,
+        850,
         []
     ],
     "Temperance Movement": [
