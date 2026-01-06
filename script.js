@@ -30,17 +30,52 @@ fetch("./nodes.json")
 function renderNodes(data) {
     Object.entries(data).forEach(([name, node]) => {
         const type = node[TYPE]
+        const shape = document.createElement("a")
+        shape.classList.add("node__shape")
+        const types = []
+        switch (type[0]) {
+            case "a": shape.classList.add("node__shape--anglo"); types.push("Anglo-Canadian"); break
+            case "f": shape.classList.add("node__shape--franco"); types.push("Franco-Canadian"); break
+            case "n": shape.classList.add("node__shape--none"); types.push("Non-Sectarian"); break
+            case "m": shape.classList.add("node__shape--maritimes"); types.push("Maritime"); break
+            case "p": shape.classList.add("node__shape--prairies"); types.push("Prairie"); break
+            case "o": shape.classList.add("node__shape--other"); types.push("Other Minority"); break
+        }
+        switch (type[1]) {
+            case "i": shape.classList.add("node__shape--ideology"); types.push("Ideology"); break
+            case "f": shape.classList.add("node__shape--faction"); types.push("Faction/Party"); break
+            case "c": shape.classList.add("node__shape--current"); types.push("Current Faction/Party"); break
+        }
+        if (type.length > 2) {
+            switch (type[2]) {
+                case "l": shape.classList.add("node__shape--liberal"); types.push("Liberal"); break
+                case "o": shape.classList.add("node__shape--conservativeOld"); types.push("Old Conservative"); break
+                case "p": shape.classList.add("node__shape--progressive"); types.push("Progressive"); break
+                case "c": shape.classList.add("node__shape--progressiveConservative"); types.push("Progressive Conservative"); break
+                case "w": shape.classList.add("node__shape--cooperativeCommonwealth"); types.push("Co-operative Commonwealth"); break
+                case "s": shape.classList.add("node__shape--socialCredit"); types.push("Social Credit"); break
+                case "d": shape.classList.add("node__shape--newDemocratic"); types.push("New Democratic"); break
+                case "b": shape.classList.add("node__shape--blocQuebecois"); types.push("Bloc Québécois"); break
+                case "g": shape.classList.add("node__shape--green"); types.push("Green"); break
+                case "r": shape.classList.add("node__shape--reform"); types.push("Reform"); break
+                case "n": shape.classList.add("node__shape--conservativeNew"); types.push("New Conservative"); break
+                case "m": shape.classList.add("node__shape--peoples"); types.push("People's"); break
+            }
+        }
+        if (types[2]) {
+            title = `${name}\n\n${types[0]} ${types[2]} ${types[1]}`
+        } else {
+            title = `${name}\n\n${types[0]} ${types[1]}`
+        }
         const container = document.createElement("a")
         container.className = "node"
         container.style.left = node[X] + "px"
         container.style.top = node[Y] + "px"
-        container.title = name
+        container.title = title
         const text = document.createElement("a")
         text.className = "node__text"
         text.textContent = name
-        text.title = name
-        const shape = document.createElement("a")
-        shape.classList.add("node__shape")
+        text.title = title
         if (node[URL] && node[URL] !== "") {
             text.href = node[URL]
             text.target = "_blank"
@@ -52,35 +87,6 @@ function renderNodes(data) {
                 text.style.width = "128px"
             } else {
                 text.style.width = "112px"
-            }
-        }
-        switch (type[0]) {
-            case "a": shape.classList.add("node__shape--anglo"); break
-            case "f": shape.classList.add("node__shape--franco"); break
-            case "n": shape.classList.add("node__shape--none"); break
-            case "m": shape.classList.add("node__shape--maritimes"); break
-            case "p": shape.classList.add("node__shape--prairies"); break
-            case "o": shape.classList.add("node__shape--other"); break
-        }
-        switch (type[1]) {
-            case "i": shape.classList.add("node__shape--ideology"); break
-            case "f": shape.classList.add("node__shape--faction"); break
-            case "c": shape.classList.add("node__shape--current"); break
-        }
-        if (type.length > 2) {
-            switch (type[2]) {
-                case "l": shape.classList.add("node__shape--liberal"); break
-                case "o": shape.classList.add("node__shape--conservativeOld"); break
-                case "p": shape.classList.add("node__shape--progressive"); break
-                case "c": shape.classList.add("node__shape--progressiveConservative"); break
-                case "w": shape.classList.add("node__shape--cooperativeCommonwealth"); break
-                case "s": shape.classList.add("node__shape--socialCredit"); break
-                case "d": shape.classList.add("node__shape--newDemocratic"); break
-                case "b": shape.classList.add("node__shape--blocQuebecois"); break
-                case "g": shape.classList.add("node__shape--green"); break
-                case "r": shape.classList.add("node__shape--reform"); break
-                case "n": shape.classList.add("node__shape--conservativeNew"); break
-                case "m": shape.classList.add("node__shape--peoples"); break
             }
         }
         container.appendChild(text)
