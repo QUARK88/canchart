@@ -54,7 +54,6 @@ html {
     align-items: start;
     justify-content: center;
     background-color: var(--bg);
-    width: fit-content;
 }
 
 #controls {
