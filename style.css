@@ -44,7 +44,7 @@
     user-select: none;
     color: #000000;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff
-    /*outline-offset: -1px;
+        /*outline-offset: -1px;
     outline: solid 1px #0f0 !important;
     /*For wireframe kiddies*/
 }
@@ -53,43 +53,25 @@ html {
     display: flex;
     align-items: start;
     justify-content: center;
-}
-
-body {
-    position: relative;
-    width: 1338px;
-    height: 1896px;
-    z-index: -1;
-    margin: 0;
-    padding: 0;
     background-color: var(--bg);
-    transition: background-color 0.2s ease, color 0.2s ease;
+    width: fit-content;
 }
 
-body::after {
-    content: "";
-    /*background-image: var(--chart);*/
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: .15;
-    width: 1338px;
-    height: 1896px;
+#controls {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    top: 16px;
+    left: 16px;
+    height: 48px;
+    z-index: 1000;
 }
 
 .theme-toggle {
-    position: fixed;
-    top: 16px;
-    left: 16px;
-    width: 64px;
     height: 48px;
+    width: 64px;
     cursor: pointer;
-    z-index: 1000;
 }
 
 .theme-toggle input {
@@ -126,6 +108,37 @@ body::after {
 
 #themeToggle:checked+.theme-toggle__icon::before {
     content: "DARK";
+}
+
+#zoomSlider {
+    appearance: none;
+    background-color: var(--grey);
+    height: 16px;
+    border-radius: 16px;
+    border: none;
+    width: 128px;
+    margin: 0;
+    cursor: pointer;
+}
+
+#zoomSlider::-webkit-slider-thumb,
+#zoomSlider::-moz-range-thumb {
+    width: 16px;
+    height: 48px;
+    border-radius: 16px;
+    border: none;
+    background-color: var(--fg);
+}
+
+#zoomZone {
+    position: relative;
+    width: 1338px;
+    height: 1896px;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 #title {
@@ -167,7 +180,7 @@ body::after {
 
 .legendParty__logo {
     width: 48px;
-    height:48px;
+    height: 48px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="html">
 
 <head>
     <link rel="stylesheet" href="./style.css">
@@ -17,141 +17,146 @@
 </head>
 
 <body>
-    <label class="theme-toggle">
-        <input type="checkbox" id="themeToggle">
-        <span class="theme-toggle__icon"></span>
-    </label>
-    <section id="title">Canadian Political History (1825-2025)</section>
-    <section id="nodesLegend">
-        <div class="nodesLegend__line">
-            <h2>Colors:</h2>
-            <div class="nodesLegend__grid">
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/English_Canadians" target="_blank" title="Anglo-Canadian Protestants">
-                    <div class="node__shape node__shape--anglo node__shape--ideology"></div>
-                    <div class="nodeInfo__text">Anglo-Canadian Protestants</div>
+    <div id="controls">
+        <label class="theme-toggle">
+            <input type="checkbox" id="themeToggle">
+            <span class="theme-toggle__icon"></span>
+        </label>
+        <input id="zoomSlider" type="range">
+    </div>
+    <div id="zoomZone">
+        <section id="title">Canadian Political History (1825-2025)</section>
+        <section id="nodesLegend">
+            <div class="nodesLegend__line">
+                <h2>Colors:</h2>
+                <div class="nodesLegend__grid">
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/English_Canadians" target="_blank" title="Anglo-Canadian Protestants">
+                        <div class="node__shape node__shape--anglo node__shape--ideology"></div>
+                        <div class="nodeInfo__text">Anglo-Canadian Protestants</div>
+                    </a>
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/French_Canadians" target="_blank" title="Franco-Canadian Catholics">
+                        <div class="node__shape node__shape--franco node__shape--ideology"></div>
+                        <div class="nodeInfo__text">Franco-Canadian Catholics</div>
+                    </a>
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Canadians" target="_blank" title="Non-sectarian">
+                        <div class="node__shape node__shape--none node__shape--ideology"></div>
+                        <div class="nodeInfo__text">Non-sectarian</div>
+                    </a>
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/The_Maritimes" target="_blank" title="Maritimes">
+                        <div class="node__shape node__shape--maritimes node__shape--ideology"></div>
+                        <div class="nodeInfo__text">Maritimes</div>
+                    </a>
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Canadian_Prairies" target="_blank" title="Prairies">
+                        <div class="node__shape node__shape--prairies node__shape--ideology"></div>
+                        <div class="nodeInfo__text">Prairies</div>
+                    </a>
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Visible_minority" target="_blank" title="Other ethno-religious minority">
+                        <div class="node__shape node__shape--other node__shape--ideology"></div>
+                        <div class="nodeInfo__text">Other ethno-religious minority</div>
+                    </a>
+                </div>
+            </div>
+            <div class="nodesLegend__line">
+                <h2>Shapes:</h2>
+                <div class="nodesLegend__grid">
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Politics_of_Canada" target="_blank" title="Political Ideology">
+                        <div class="node__shape node__shape--grey node__shape--ideology"></div>
+                        <div class="nodeInfo__text">Political Ideology</div>
+                    </a>
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/List_of_federal_political_parties_in_Canada#Historical_parties" target="_blank" title="Political Faction/Party">
+                        <div class="node__shape node__shape--grey node__shape--faction"></div>
+                        <div class="nodeInfo__text">Political Faction/Party</div>
+                    </a>
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/List_of_federal_political_parties_in_Canada#Current_parties" target="_blank" title="Current (2025) Faction/Party">
+                        <div class="node__shape node__shape--grey node__shape--current"></div>
+                        <div class="nodeInfo__text">Current (2025) Faction/Party</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="partiesLegend">
+            <h2>Parties:</h2>
+            <div id="partiesLegend__grid">
+                <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/liberal-party" target="_blank" title="Liberal Party">
+                    <div class="legendParty__logo" style="background-color:var(--liberal);background-image:url('./assets/parties/Liberal.svg');"></div>
+                    <div class="legendParty__name">Liberal</div>
                 </a>
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/French_Canadians" target="_blank" title="Franco-Canadian Catholics">
-                    <div class="node__shape node__shape--franco node__shape--ideology"></div>
-                    <div class="nodeInfo__text">Franco-Canadian Catholics</div>
+                <a class="legendParty" href="https://en.wikipedia.org/wiki/Conservative_Party_of_Canada_(1867%E2%80%931942)" target="_blank" title="Conservative Party">
+                    <div class="legendParty__logo" style="background-color:var(--conservativeOld);background-image:url('./assets/parties/Conservative (Old).svg');"></div>
+                    <div class="legendParty__name">Conservative (Old)</div>
                 </a>
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Canadians" target="_blank" title="Non-sectarian">
-                    <div class="node__shape node__shape--none node__shape--ideology"></div>
-                    <div class="nodeInfo__text">Non-sectarian</div>
+                <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/progressive-party" target="_blank" title="Progressive Party">
+                    <div class="legendParty__logo" style="background-color:var(--progressive);background-image:url('./assets/parties/Progressive.svg');"></div>
+                    <div class="legendParty__name">Progressive</div>
                 </a>
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/The_Maritimes" target="_blank" title="Maritimes">
-                    <div class="node__shape node__shape--maritimes node__shape--ideology"></div>
-                    <div class="nodeInfo__text">Maritimes</div>
+                <a class="legendParty" href="https://en.wikipedia.org/wiki/Progressive_Conservative_Party_of_Canada" target="_blank" title="Progressive Conservative Party">
+                    <div class="legendParty__logo" style="background-color:var(--progressiveConservative);background-image:url('./assets/parties/Progressive Conservative.svg');"></div>
+                    <div class="legendParty__name">Progressive Conservative</div>
                 </a>
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Canadian_Prairies" target="_blank" title="Prairies">
-                    <div class="node__shape node__shape--prairies node__shape--ideology"></div>
-                    <div class="nodeInfo__text">Prairies</div>
+                <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/co-operative-commonwealth-federation" target="_blank" title="Co-operative Commonwealth Federation">
+                    <div class="legendParty__logo" style="background-color:var(--cooperativeCommonwealth);background-image:url('./assets/parties/Co-operative Commonwealth.svg');"></div>
+                    <div class="legendParty__name">Co-operative Commonwealth</div>
                 </a>
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Visible_minority" target="_blank" title="Other ethno-religious minority">
-                    <div class="node__shape node__shape--other node__shape--ideology"></div>
-                    <div class="nodeInfo__text">Other ethno-religious minority</div>
+                <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/social-credit" target="_blank" title="Social Credit Party">
+                    <div class="legendParty__logo" style="background-color:var(--socialCredit);background-image:url('./assets/parties/Social Credit.svg');"></div>
+                    <div class="legendParty__name">Social Credit</div>
+                </a>
+                <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/new-democratic-party" target="_blank" title="New Democratic Party">
+                    <div class="legendParty__logo" style="background-color:var(--newDemocratic);background-image:url('./assets/parties/New Democratic.svg');"></div>
+                    <div class="legendParty__name">New Democratic</div>
+                </a>
+                <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/bloc-quebecois" target="_blank" title="Bloc Québécois">
+                    <div class="legendParty__logo" style="background-color:var(--blocQuebecois);background-image:url('./assets/parties/Bloc Québécois.svg');"></div>
+                    <div class="legendParty__name">Bloc Québécois</div>
+                </a>
+                <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/green-party-of-canada" target="_blank" title="Green Party">
+                    <div class="legendParty__logo" style="background-color:var(--green);background-image:url('./assets/parties/Green.svg');"></div>
+                    <div class="legendParty__name">Green</div>
+                </a>
+                <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/reform-party-of-canada" target="_blank" title="Reform Party">
+                    <div class="legendParty__logo" style="background-color:var(--reform);background-image:url('./assets/parties/Reform.svg');"></div>
+                    <div class="legendParty__name">Reform</div>
+                </a>
+                <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/conservative-party" target="_blank" title="Conservative Party">
+                    <div class="legendParty__logo" style="background-color:var(--conservativeNew);background-image:url('./assets/parties/Conservative (New).svg');"></div>
+                    <div class="legendParty__name">Conservative (New)</div>
+                </a>
+                <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/people-s-party-of-canada" target="_blank" title="People's Party">
+                    <div class="legendParty__logo" style="background-color:var(--peoples);background-image:url('./assets/parties/Peoples.svg');"></div>
+                    <div class="legendParty__name">People's</div>
                 </a>
             </div>
-        </div>
-        <div class="nodesLegend__line">
-            <h2>Shapes:</h2>
-            <div class="nodesLegend__grid">
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Politics_of_Canada" target="_blank" title="Political Ideology">
-                    <div class="node__shape node__shape--grey node__shape--ideology"></div>
-                    <div class="nodeInfo__text">Political Ideology</div>
-                </a>
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/List_of_federal_political_parties_in_Canada#Historical_parties" target="_blank" title="Political Faction/Party">
-                    <div class="node__shape node__shape--grey node__shape--faction"></div>
-                    <div class="nodeInfo__text">Political Faction/Party</div>
-                </a>
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/List_of_federal_political_parties_in_Canada#Current_parties" target="_blank" title="Current (2025) Faction/Party">
-                    <div class="node__shape node__shape--grey node__shape--current"></div>
-                    <div class="nodeInfo__text">Current (2025) Faction/Party</div>
-                </a>
-            </div>
-        </div>
-    </section>
-    <section id="partiesLegend">
-        <h2>Parties:</h2>
-        <div id="partiesLegend__grid">
-            <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/liberal-party" target="_blank" title="Liberal Party">
-                <div class="legendParty__logo" style="background-color:var(--liberal);background-image:url('./assets/parties/Liberal.svg');"></div>
-                <div class="legendParty__name">Liberal</div>
+        </section>
+        <section id="eventsLegend">
+            <h2>Approximate eras timeline</h2>
+            <a class="event" href="https://thecanadianencyclopedia.ca/en/article/rebellions-of-1837" target="_blank" title="Rebellions of 1837-1838">
+                <h2 class="event__text">Aftermath of the rebellions of 1837-1838</h2>
+                <img class="event__image" src="./assets/events/Rebellions.png">
             </a>
-            <a class="legendParty" href="https://en.wikipedia.org/wiki/Conservative_Party_of_Canada_(1867%E2%80%931942)" target="_blank" title="Conservative Party">
-                <div class="legendParty__logo" style="background-color:var(--conservativeOld);background-image:url('./assets/parties/Conservative (Old).svg');"></div>
-                <div class="legendParty__name">Conservative (Old)</div>
+            <a class="event" href="https://thecanadianencyclopedia.ca/en/article/confederation" target="_blank" title="Confederation of Canada">
+                <h2 class="event__text">Conferences for the confederation of Canada</h2>
+                <img class="event__image" src="./assets/events/Conferences.png">
             </a>
-            <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/progressive-party" target="_blank" title="Progressive Party">
-                <div class="legendParty__logo" style="background-color:var(--progressive);background-image:url('./assets/parties/Progressive.svg');"></div>
-                <div class="legendParty__name">Progressive</div>
+            <a class="event" href="https://thecanadianencyclopedia.ca/en/article/first-world-war-wwi" target="_blank" title="The Great War">
+                <h2 class="event__text">The Great War</h2>
+                <img class="event__image" src="./assets/events/Great War.png">
             </a>
-            <a class="legendParty" href="https://en.wikipedia.org/wiki/Progressive_Conservative_Party_of_Canada" target="_blank" title="Progressive Conservative Party">
-                <div class="legendParty__logo" style="background-color:var(--progressiveConservative);background-image:url('./assets/parties/Progressive Conservative.svg');"></div>
-                <div class="legendParty__name">Progressive Conservative</div>
+            <a class="event" href="https://thecanadianencyclopedia.ca/en/article/second-world-war-wwii" target="_blank" title="The Second World War">
+                <h2 class="event__text">The Second World War</h2>
+                <img class="event__image" src="./assets/events/WW2.png">
             </a>
-            <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/co-operative-commonwealth-federation" target="_blank" title="Co-operative Commonwealth Federation">
-                <div class="legendParty__logo" style="background-color:var(--cooperativeCommonwealth);background-image:url('./assets/parties/Co-operative Commonwealth.svg');"></div>
-                <div class="legendParty__name">Co-operative Commonwealth</div>
+            <a class="event" href="https://thecanadianencyclopedia.ca/en/article/cold-war" target="_blank" title="The Cold War">
+                <h2 class="event__text">The Cold War</h2>
+                <img class="event__image" src="./assets/events/Cold War.png">
             </a>
-            <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/social-credit" target="_blank" title="Social Credit Party">
-                <div class="legendParty__logo" style="background-color:var(--socialCredit);background-image:url('./assets/parties/Social Credit.svg');"></div>
-                <div class="legendParty__name">Social Credit</div>
+            <a class="event" href="https://en.wikipedia.org/wiki/Canada" target="_blank" title="Canada">
+                <h2 class="event__text">Contemporary Canada</h2>
+                <img class="event__image" src="./assets/events/Contemporary.png">
             </a>
-            <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/new-democratic-party" target="_blank" title="New Democratic Party">
-                <div class="legendParty__logo" style="background-color:var(--newDemocratic);background-image:url('./assets/parties/New Democratic.svg');"></div>
-                <div class="legendParty__name">New Democratic</div>
-            </a>
-            <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/bloc-quebecois" target="_blank" title="Bloc Québécois">
-                <div class="legendParty__logo" style="background-color:var(--blocQuebecois);background-image:url('./assets/parties/Bloc Québécois.svg');"></div>
-                <div class="legendParty__name">Bloc Québécois</div>
-            </a>
-            <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/green-party-of-canada" target="_blank" title="Green Party">
-                <div class="legendParty__logo" style="background-color:var(--green);background-image:url('./assets/parties/Green.svg');"></div>
-                <div class="legendParty__name">Green</div>
-            </a>
-            <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/reform-party-of-canada" target="_blank" title="Reform Party">
-                <div class="legendParty__logo" style="background-color:var(--reform);background-image:url('./assets/parties/Reform.svg');"></div>
-                <div class="legendParty__name">Reform</div>
-            </a>
-            <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/conservative-party" target="_blank" title="Conservative Party">
-                <div class="legendParty__logo" style="background-color:var(--conservativeNew);background-image:url('./assets/parties/Conservative (New).svg');"></div>
-                <div class="legendParty__name">Conservative (New)</div>
-            </a>
-            <a class="legendParty" href="https://thecanadianencyclopedia.ca/en/article/people-s-party-of-canada" target="_blank" title="People's Party">
-                <div class="legendParty__logo" style="background-color:var(--peoples);background-image:url('./assets/parties/Peoples.svg');"></div>
-                <div class="legendParty__name">People's</div>
-            </a>
-        </div>
-    </section>
-    <section id="eventsLegend">
-        <h2>Approximate eras timeline</h2>
-        <a class="event" href="https://thecanadianencyclopedia.ca/en/article/rebellions-of-1837" target="_blank" title="Rebellions of 1837-1838">
-            <h2 class="event__text">Aftermath of the rebellions of 1837-1838</h2>
-            <img class="event__image" src="./assets/events/Rebellions.png">
-        </a>
-        <a class="event" href="https://thecanadianencyclopedia.ca/en/article/confederation" target="_blank" title="Confederation of Canada">
-            <h2 class="event__text">Conferences for the confederation of Canada</h2>
-            <img class="event__image" src="./assets/events/Conferences.png">
-        </a>
-        <a class="event" href="https://thecanadianencyclopedia.ca/en/article/first-world-war-wwi" target="_blank" title="The Great War">
-            <h2 class="event__text">The Great War</h2>
-            <img class="event__image" src="./assets/events/Great War.png">
-        </a>
-        <a class="event" href="https://thecanadianencyclopedia.ca/en/article/second-world-war-wwii" target="_blank" title="The Second World War">
-            <h2 class="event__text">The Second World War</h2>
-            <img class="event__image" src="./assets/events/WW2.png">
-        </a>
-        <a class="event" href="https://thecanadianencyclopedia.ca/en/article/cold-war" target="_blank" title="The Cold War">
-            <h2 class="event__text">The Cold War</h2>
-            <img class="event__image" src="./assets/events/Cold War.png">
-        </a>
-        <a class="event" href="https://en.wikipedia.org/wiki/Canada" target="_blank" title="Canada">
-            <h2 class="event__text">Contemporary Canada</h2>
-            <img class="event__image" src="./assets/events/Contemporary.png">
-        </a>
-    </section>
-    <section id="chart"></section>
-    <svg id="arrows"></svg>
+        </section>
+        <section id="chart"></section>
+        <svg id="arrows"></svg>
+    </div>
 </body>
 <script src="./script.js"></script>
 
