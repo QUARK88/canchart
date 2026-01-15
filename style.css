@@ -134,7 +134,7 @@ html {
     position: relative;
     width: 1338px;
     height: 1896px;
-    z-index: -1;
+    z-index: 0;
     margin: 0;
     padding: 0;
     background-color: var(--bg);
