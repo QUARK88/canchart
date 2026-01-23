@@ -44,7 +44,7 @@
     user-select: none;
     color: #000000;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff
-        /*outline-offset: -1px;
+    /*outline-offset: -1px;
     outline: solid 1px #0f0 !important;
     /*For wireframe kiddies*/
 }
