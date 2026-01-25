@@ -149,6 +149,18 @@ function intersectCircle(x1, y1, x2, y2, radius) {
         y: y2 - (dy / len) * radius
     }
 }
+function intersectDiamond(x1, y1, x2, y2, half) {
+    const dx = x2 - x1
+    const dy = y2 - y1
+    const adx = Math.abs(dx)
+    const ady = Math.abs(dy)
+    const denom = adx + ady || 1
+    const t = half / denom
+    return {
+        x: x2 - dx * t,
+        y: y2 - dy * t
+    }
+}
 function renderArrows(data) {
     const rect = chart.getBoundingClientRect()
     arrows.setAttribute("width", rect.width)
@@ -171,9 +183,11 @@ function renderArrows(data) {
             const y2 = node[Y]
             let end
             if (shapeType === "i") {
-                end = intersectCircle(x1, y1, x2, y2, 18)
+                end = intersectCircle(x1, y1, x2, y2, 20)
+            } else if (shapeType === "f") {
+                end = intersectSquare(x1, y1, x2, y2, 20)
             } else {
-                end = intersectSquare(x1, y1, x2, y2, 18)
+                end = intersectDiamond(x1, y1, x2, y2, 28)
             }
             const line = document.createElementNS("http://www.w3.org/2000/svg", "line")
             line.setAttribute("x1", x1)

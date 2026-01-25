@@ -3,13 +3,13 @@
         "mi",
         "https://thecanadianencyclopedia.ca/en/article/responsible-government",
         975,
-        550,
+        525,
         []
     ],
     "Agrarianism": [
         "ni",
         "https://en.wikipedia.org/wiki/Agrarianism",
-        250,
+        200,
         700,
         []
     ],
@@ -30,7 +30,7 @@
     "Bloc Populaire": [
         "ff",
         "https://thecanadianencyclopedia.ca/en/article/bloc-populaire-canadien",
-        575,
+        550,
         900,
         [
             [
@@ -67,7 +67,7 @@
     "Bourassien Nationalism": [
         "fi",
         "https://thecanadianencyclopedia.ca/en/article/henri-bourassa",
-        650,
+        625,
         950,
         [
             [
@@ -78,7 +78,7 @@
     "British Loyalism": [
         "ai",
         "https://thecanadianencyclopedia.ca/en/article/loyalists",
-        650,
+        625,
         350,
         []
     ],
@@ -102,8 +102,8 @@
     "Canadian Labour Congress": [
         "nc",
         "https://thecanadianencyclopedia.ca/en/article/canadian-labour-congress",
-        275,
-        1400,
+        250,
+        1425,
         [
             [
                 "Industrial Unionism"
@@ -127,7 +127,7 @@
     "Canadian Tories": [
         "af",
         "https://thecanadianencyclopedia.ca/en/article/sir-john-alexander-macdonald",
-        650,
+        625,
         500,
         [
             [
@@ -148,7 +148,7 @@
     "Château Clique": [
         "af",
         "https://thecanadianencyclopedia.ca/en/article/chateau-clique",
-        600,
+        575,
         425,
         [
             [
@@ -178,7 +178,7 @@
     "Communist Party": [
         "nc",
         "https://thecanadianencyclopedia.ca/en/article/communist-party-of-canada",
-        150,
+        125,
         1225,
         [
             [
@@ -197,7 +197,7 @@
         "ncn",
         "https://thecanadianencyclopedia.ca/en/article/pierre-poilievre",
         825,
-        1825,
+        1850,
         [
             [
                 "Conservative Party (Harper era)"
@@ -254,7 +254,7 @@
         "ni",
         "https://en.wikipedia.org/wiki/Social_liberalism",
         475,
-        1650,
+        1675,
         []
     ],
     "Continentalism": [
@@ -284,8 +284,8 @@
     "Electoral Reformism": [
         "ni",
         "https://thecanadianencyclopedia.ca/en/article/electoral-reform",
-        325,
-        1675,
+        350,
+        1700,
         []
     ],
     "Environmentalism": [
@@ -302,7 +302,7 @@
     "Family Compact": [
         "af",
         "https://thecanadianencyclopedia.ca/en/article/family-compact",
-        700,
+        675,
         425,
         [
             [
@@ -313,8 +313,8 @@
     "Gallicanism": [
         "fi",
         "https://thecanadianencyclopedia.ca/en/article/gallicanism",
-        325,
-        600,
+        300,
+        625,
         []
     ],
     "Green Party": [
@@ -361,13 +361,13 @@
         "ni",
         "https://thecanadianencyclopedia.ca/en/article/industrial-unionism",
         200,
-        1350,
+        1375,
         []
     ],
     "Jewish Left": [
         "oi",
         "https://en.wikipedia.org/wiki/J._B._Salsberg",
-        100,
+        50,
         1275,
         []
     ],
@@ -381,7 +381,7 @@
     "Labor-Progressive Party": [
         "nf",
         "https://en.wikipedia.org/wiki/Labor-Progressive_Party",
-        150,
+        125,
         1375,
         [
             [
@@ -396,7 +396,7 @@
     "Laurier Liberals": [
         "nfl",
         "https://en.wikipedia.org/wiki/Laurier_Liberals",
-        475,
+        500,
         975,
         [
             [
@@ -438,7 +438,7 @@
         "nfl",
         "https://thecanadianencyclopedia.ca/en/article/joseph-jacques-jean-chretien",
         625,
-        1600,
+        1575,
         [
             [
                 "Liberal Party (Trudeau-Turner era)"
@@ -452,7 +452,7 @@
         "ncl",
         "https://thecanadianencyclopedia.ca/en/article/mark-carney",
         575,
-        1825,
+        1850,
         [
             [
                 "Conservative Party (Contemporary era)",
@@ -488,7 +488,7 @@
         "nfl",
         "https://thecanadianencyclopedia.ca/en/article/sir-wilfrid-laurier",
         450,
-        775,
+        800,
         [
             [
                 "Liberal Party (Mackenzie era)"
@@ -532,7 +532,7 @@
         "nfl",
         "https://thecanadianencyclopedia.ca/en/article/paul-edgar-philippe-martin",
         575,
-        1675,
+        1650,
         [
             [
                 "Liberal Party (Chrétien era)"
@@ -543,7 +543,7 @@
         "nfl",
         "https://thecanadianencyclopedia.ca/en/article/lester-bowles-pearson",
         700,
-        1300,
+        1275,
         [
             [
                 "Liberal Party (King-St. Laurent era)"
@@ -556,7 +556,7 @@
     "Liberal Party (Trudeau era)": [
         "nfl",
         "https://thecanadianencyclopedia.ca/en/article/justin-trudeau",
-        525,
+        500,
         1775,
         [
             [
@@ -584,7 +584,7 @@
         "nfl",
         "https://thecanadianencyclopedia.ca/en/article/pierre-elliott-trudeau",
         700,
-        1375,
+        1350,
         [
             [
                 "Liberal Party (Pearson era)"
@@ -608,7 +608,7 @@
         "af",
         "https://www.biographi.ca/en/bio/mccarthy_d_alton_12E.html",
         650,
-        800,
+        825,
         [
             [
                 "Liberal-Conservative Party",
@@ -625,15 +625,15 @@
     "Multiculturalism": [
         "ni",
         "https://thecanadianencyclopedia.ca/en/article/multiculturalism",
-        800,
-        1350,
+        625,
+        1400,
         []
     ],
     "''National Policy'' Protectionism": [
         "ni",
         "https://thecanadianencyclopedia.ca/en/article/national-policy",
+        825,
         775,
-        700,
         []
     ],
     "New Brunswick Anti-Confederation Party": [
@@ -665,7 +665,7 @@
         "mf",
         "https://thecanadianencyclopedia.ca/en/article/sir-samuel-leonard-tilley",
         775,
-        500,
+        475,
         [
             [
                 "''Rummies''",
@@ -680,8 +680,8 @@
     "New Brunswick Liberals": [
         "mf",
         "https://thecanadianencyclopedia.ca/en/article/sir-albert-james-smith",
-        925,
-        500,
+        900,
+        475,
         [
             [
                 "''Rummies''",
@@ -699,8 +699,8 @@
     "New Democracy": [
         "nf",
         "https://thecanadianencyclopedia.ca/en/article/william-duncan-herridge",
-        475,
-        1325,
+        450,
+        1300,
         [
             [
                 "Western Social Credit League"
@@ -710,7 +710,7 @@
     "New Democratic Party (Broadbent era)": [
         "nfd",
         "https://thecanadianencyclopedia.ca/en/article/john-edward-broadbent",
-        275,
+        250,
         1600,
         [
             [
@@ -722,7 +722,7 @@
         "nfd",
         "https://thecanadianencyclopedia.ca/en/article/tommy-douglas",
         325,
-        1475,
+        1500,
         [
             [
                 "Canadian Labour Congress"
@@ -739,7 +739,7 @@
         "nfd",
         "https://thecanadianencyclopedia.ca/en/article/jack-layton",
         250,
-        1725,
+        1750,
         [
             [
                 "Electoral Reformism"
@@ -753,7 +753,7 @@
         "ncd",
         "https://thecanadianencyclopedia.ca/en/article/jagmeet-singh",
         325,
-        1825,
+        1850,
         [
             [
                 "New Democratic Party (Layton era)"
@@ -763,7 +763,7 @@
     "New Left": [
         "ni",
         "https://thecanadianencyclopedia.ca/en/article/new-left",
-        400,
+        425,
         1350,
         []
     ],
@@ -782,7 +782,7 @@
         "mf",
         "https://en.wikipedia.org/wiki/Confederation_Party",
         875,
-        750,
+        725,
         [
             [
                 "Nova Scotia Conservatives"
@@ -793,14 +793,14 @@
         "mf",
         "https://thecanadianencyclopedia.ca/en/article/sir-charles-tupper",
         975,
-        700,
+        675,
         []
     ],
     "Nova Scotia Reform Movement": [
         "mf",
         "https://thecanadianencyclopedia.ca/en/article/joseph-howe",
         975,
-        625,
+        600,
         [
             [
                 "Accountability Reformism"
@@ -810,8 +810,8 @@
     "Orangemen Protestantism": [
         "ai",
         "https://thecanadianencyclopedia.ca/en/article/orange-order",
-        750,
-        850,
+        775,
+        875,
         []
     ],
     "Parti Bleu": [
@@ -851,7 +851,7 @@
         "ff",
         "https://thecanadianencyclopedia.ca/en/article/patriotes",
         325,
-        475,
+        450,
         [
             [
                 "Agrarianism"
@@ -864,8 +864,8 @@
     "Patrons of Industry Party": [
         "af",
         "https://en.wikipedia.org/wiki/Patrons_of_Industry",
-        350,
-        750,
+        325,
+        775,
         [
             [
                 "Agrarianism"
@@ -879,7 +879,7 @@
         "ncm",
         "https://thecanadianencyclopedia.ca/en/article/people-s-party-of-canada",
         725,
-        1750,
+        1775,
         [
             [
                 "Conservative Party (Contemporary era)"
@@ -895,8 +895,8 @@
     "Plurinational Canadianism": [
         "ni",
         "https://en.wikipedia.org/wiki/Plurinationalism",
-        800,
-        1250,
+        775,
+        1225,
         []
     ],
     "Political Anti-semitism": [
@@ -1013,8 +1013,8 @@
     "Protestant Fundamentalism": [
         "ai",
         "https://thecanadianencyclopedia.ca/en/article/evangelical-and-fundamentalist-movements",
-        425,
-        1250,
+        400,
+        1125,
         []
     ],
     "Québec Separatism": [
@@ -1067,14 +1067,14 @@
         "mf",
         "http://www.revparl.ca/english/issue.asp?param=209&art=1468",
         775,
-        400,
+        375,
         []
     ],
     "''Smashers''": [
         "mf",
         "http://www.revparl.ca/english/issue.asp?param=209&art=1468",
-        925,
-        400,
+        900,
+        375,
         [
             [
                 "Temperance Movement"
@@ -1085,7 +1085,7 @@
         "ni",
         "https://en.wikipedia.org/wiki/Social_credit",
         575,
-        1200,
+        1175,
         []
     ],
     "Social Credit Party": [
@@ -1151,7 +1151,7 @@
     "Socialist Party": [
         "pf",
         "https://en.wikipedia.org/wiki/Socialist_Party_of_Canada_(WSM)",
-        125,
+        100,
         1125,
         [
             [
@@ -1163,13 +1163,13 @@
         "ni",
         "https://thecanadianencyclopedia.ca/en/article/national-policy",
         375,
-        850,
+        875,
         []
     ],
     "Temperance Movement": [
         "ni",
         "https://thecanadianencyclopedia.ca/en/article/temperance-movement",
-        850,
+        975,
         350,
         []
     ],
