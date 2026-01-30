@@ -149,6 +149,30 @@ html {
     width: 896px;
 }
 
+#relatedSites {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 192px;
+    position: absolute;
+    top: 448px;
+    left: 32px;
+    font-size: 16px;
+    z-index: 1;
+}
+
+.relatedSite {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 48px;
+    text-align: left;
+}
+
+.relatedSite__icon {
+    height: 100%;
+}
+
 #partiesLegend {
     display: flex;
     flex-direction: column;
@@ -341,7 +365,7 @@ html {
 .node__shape--current {
     border: solid 2px var(--fg);
     border-radius: 4px;
-    transform: translate(-50%, -50%) rotate(45deg)!important;
+    transform: translate(-50%, -50%) rotate(45deg) !important;
 }
 
 .node__shape--liberal {
