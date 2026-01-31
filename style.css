@@ -55,6 +55,7 @@ html {
     justify-content: center;
     background-color: var(--bg);
     width: 2676px;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 #controls {
