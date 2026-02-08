@@ -31,6 +31,7 @@ function renderNodes(data) {
     Object.entries(data).forEach(([name, node]) => {
         const type = node[TYPE]
         const shape = document.createElement("a")
+        shape.draggable = false
         shape.classList.add("node__shape")
         const types = []
         switch (type[0]) {
@@ -76,6 +77,7 @@ function renderNodes(data) {
         text.className = "node__text"
         text.textContent = name
         text.title = title
+        text.draggable = false
         if (node[URL] && node[URL] !== "") {
             text.href = node[URL]
             text.target = "_blank"
