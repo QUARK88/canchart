@@ -85,10 +85,10 @@ function renderNodes(data) {
             shape.target = "_blank"
         }
         if (name.length > 24) {
-            if (name.length > 40) {
+            if (name.length > 36) {
                 text.style.width = "128px"
             } else {
-                text.style.width = "112px"
+                text.style.width = "100px"
             }
         }
         container.appendChild(text)
